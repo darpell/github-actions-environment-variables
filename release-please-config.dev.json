@@ -1,0 +1,96 @@
+{
+    "release-type": "simple",
+    "separate-pull-requests": true,
+    "component": "dev",
+    "tag-separator": "-",
+    "packages": {
+      ".": {
+        "draft": false,
+        "draft-pull-request": false,
+        "changelog-path": "CHANGELOG.dev.md",
+        "bump-minor-pre-major": false,
+        "prerelease": false,
+        "changelog-type": "default",
+        "include-v-in-tag": true,
+        "pull-request-header": ":robot: I have created a release for dev environment *beep* *boop*",
+        "pull-request-title-pattern": "chore(${scope}): release ${component} ${version}",
+        "skip-github-release": false,
+        "versioning": "default",
+        "changelog-sections": [
+          {
+            "type": "feat",
+            "section": "Features",
+            "hidden": false,
+            "labels": ["feat"]
+          },
+          {
+            "type": "fix",
+            "section": "Bug Fixes",
+            "hidden": false,
+            "labels": ["fix"]
+          },
+          {
+            "type": "docs",
+            "section": "Documentation",
+            "hidden": false,
+            "labels": ["docs"]
+          },
+          {
+            "type": "deps",
+            "section": "Dependencies",
+            "hidden": false,
+            "labels": ["deps"]
+          },
+          {
+            "type": "chore",
+            "section": "Chores",
+            "hidden": false,
+            "labels": ["chore"]
+          },
+          {
+            "type": "perf",
+            "section": "Performance Improvements",
+            "hidden": false,
+            "labels": ["perf"]
+          },
+          {
+            "type": "revert",
+            "section": "Reverts",
+            "hidden": false,
+            "labels": ["revert"]
+          },
+          {
+            "type": "style",
+            "section": "Styles",
+            "hidden": false,
+            "labels": ["style"]
+          },
+          {
+            "type": "refactor",
+            "section": "Code Refactoring",
+            "hidden": false,
+            "labels": ["refactor"]
+          },
+          {
+            "type": "test",
+            "section": "Tests",
+            "hidden": false,
+            "labels": ["test"]
+          },
+          {
+            "type": "build",
+            "section": "Build System",
+            "hidden": false,
+            "labels": ["build"]
+          },
+          {
+            "type": "ci",
+            "section": "Continuous Integration",
+            "hidden": false,
+            "labels": ["ci"]
+          }
+        ]
+      }
+    }
+  }
+  
